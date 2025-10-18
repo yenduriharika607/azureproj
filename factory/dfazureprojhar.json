@@ -1,0 +1,9 @@
+{
+	"name": "dfazureprojhar",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "35fc4ec7-54c9-4d8a-8118-0febaa60bda7",
+		"tenantId": "feb0ee4c-af67-4bc5-a987-75bdb0c8a31e"
+	}
+}
