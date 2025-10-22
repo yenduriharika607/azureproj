@@ -1,0 +1,22 @@
+{
+	"name": "empty_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "empty.json",
+				"folderPath": "cdc",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {
+			"type": "object"
+		}
+	}
+}
