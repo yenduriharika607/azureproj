@@ -308,6 +308,9 @@
 						"cdc_col": "stream_timestamp"
 					}
 				]
+			},
+			"backdate_refresh_date": {
+				"type": "string"
 			}
 		},
 		"annotations": []
