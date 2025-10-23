@@ -334,6 +334,14 @@
 					{
 						"table": "factstream",
 						"cdc_col": "stream_timestamp"
+					},
+					{
+						"table": "dimtrack",
+						"cdc_col": "updated_at"
+					},
+					{
+						"table": "dimdate",
+						"cdc_col": "date"
 					}
 				]
 			},
