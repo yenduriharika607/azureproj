@@ -1,0 +1,18 @@
+{
+	"name": "RestResource1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_rest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "?offset={offset}",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	}
+}
